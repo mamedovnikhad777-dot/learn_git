@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: rgb(0, 0, 0, 0.548);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav > ul > li > a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Подвал сайта */
+
+footer{
+    font-size: 30px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+}
+
+footer > p{
+    color: white;
+    margin: 0;
+}
+
+
+/* Контент страницы */
+main{
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.popular-tovar{
+    width: 100%;
+    height: auto;
+}
+
+.popular-tovar > h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.tovar-list{
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.tovar-card{
+    width: 33%;
+    height: auto;
+    /* background-color: aquanarine */
+    border: 1px solid black; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.tovar-img{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+}
+
+.tovar-info{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}   
+
+.tovar-info > a{
+    color: black;
+    background-color: rgb(80, 64, 95);
+    padding: 5px 40px;
+    margin: 0 0 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.tovar-info > a:hover{
+    color: aqua;
+    background-color: rgb(187, 117, 25);
+}
+
+.tovar-card:hover{
+    transform: scale(1.1);
+}
+
+.product-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.tovar-info-page{
+    width: 45%;
+    height: auto;
+}
+
+.tovar-info-page > h1{
+    margin-bottom: 100px;
+}
+
+.tovar-img-page{
+    width: 45%;
+    height: auto;
+}
+
+.tovar-info-page:nth-child(2){
+    line-height: 1.5;
+}
+
+.price{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    padding: 30px 10px;
+    border-radius: 20px;
+}
+
+.tovar-info-page >button{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 0;
+    background-color: rgb(19, 19, 20);
+    color: rgb(185, 206, 224);
+    transition: all 0.3s ease;
+}
+
+.tovar-info-page >button:hover{
+    cursor: pointer;
+    background: transparent;
+    color: blue;
+    border: 1px solid rgb(29, 25, 20);
+}

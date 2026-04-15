@@ -32,19 +32,39 @@
             <h3 aling="">Популярные товары</h3>
 
             <div class="tovar-list">
-                <?php foreach ($products as $product):?>
                 <div class="tovar-card">
                     <div class="tovar-img">
-                        <img src="<?php echo $product['img']?>">
+                        <img src="./Магазин/i.webp">
                     </div>
                     <div class="tovar-info">
                     <button>Купить</button>
-                    <p> <?php echo $product ["name"]?></p>
                     <a href="product.php">Подробнее</a>
                 </div>
                 </div>
 
-                <?php endforeach;?>
             </div>
         </section>
     </main>
+    <footer>
+    <span>Подвал сайта</span>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.php">Главная страница</a>
+            </li>
+            <li>
+                <a href="catalog.php">Каталог</a>
+            </li>
+            <li>
+                <a href="#">О нас</a>
+            </li>
+            <li>
+                <a href="#">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    </footer>
+
+</body>
+
+</html>
