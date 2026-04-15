@@ -1,1 +1,1 @@
-Сыллка на сайт - https://github.com/mamedovnikhad777-dot/learn_git
+Сыллка на сайт - https://mamedovnikhad777-dot.github.io/learn_git/
